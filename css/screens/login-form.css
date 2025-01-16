@@ -1,0 +1,38 @@
+.login-form {
+  margin: 80px 30px 0px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  border: none;
+  padding: 20px;
+  margin: 10px 0px;
+  font-size: 15px;
+}
+.login-form input:not([type="submit"]) {
+  border-bottom: 0.7px solid rgba(0, 0, 0, 0.4);
+}
+
+.login-form input:focus {
+  border-color: rgba(0, 0, 0, 0.8);
+}
+.login-form__value::placeholder {
+  opacity: 0.8;
+}
+.login-form__btn {
+  cursor: pointer;
+  background-color: yellowgreen;
+  border-radius: 5px;
+}
+
+.login-form a {
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+/* input에서 margin, width로 길이 조절하는 차이 공부하기 
+text-align이 적용되는 기준이 무엇인지?
+*/
