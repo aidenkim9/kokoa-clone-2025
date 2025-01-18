@@ -1,0 +1,51 @@
+.nav {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  font-size: 27px;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav__notification {
+  background-color: tomato;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 17px;
+  left: 16px;
+}
+
+.nav__dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: tomato;
+  position: absolute;
+  bottom: 27px;
+  left: 30px;
+}
+
+/*
+2년 휴학도 고려
+자격증 따기 (운전면허, 컴활, 스포츠 관련)
+*/
