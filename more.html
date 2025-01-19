@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends | Kokoa</title>
+    <title>More | Kokoa</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -21,7 +21,9 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__column">
+        <span class="screen-header__title">More</span>
+      </div>
       <div class="screen-header__column">
         <span class="screen-header__icon"
           ><i class="fa-solid fa-magnifying-glass"></i></span
@@ -32,12 +34,7 @@
         ></span>
       </div>
     </header>
-    <a class="friends-display__link" href="friends.html">
-      <i class="fa-solid fa-circle-info"></i>
-      <span class="friends-display__text">Friends' Names Display</span>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
-    <main class="friends-screen">
+    <main class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -47,61 +44,51 @@
           />
           <div class="user-component__text">
             <h3 class="user-component__title">Mina</h3>
-            <!--<span class="user-component__subtitle"
-          >Please check My Kakao Account Info</span
-        >-->
+            <span class="user-component__subtitle">+ 475-341-9977 ✅</span>
           </div>
         </div>
-
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+          <i class="fa-solid fa-tags fa-2xl"></i>
+        </div>
       </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-angle-up"></i>
+      <div class="icon-rows">
+        <div class="icon-rows__icon">
+          <i class="fa-regular fa-calendar"></i><span>Calendar</span>
         </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__img user-component__img--sm"
-              src="1.jpeg"
-              alt=""
-            />
-            <div class="user-component__text">
-              <h3 class="user-component__title user-component__title-not-bold">
-                Mina
-              </h3>
-              <!--<span class="user-component__subtitle"
-            >Please check My Kakao Account Info</span
-          >-->
+        <div class="icon-rows__icon">
+          <i class="fa-regular fa-hard-drive"></i><span>Talk Drive</span>
+        </div>
+        <div class="icon-rows__icon">
+          <i class="fa-regular fa-face-smile"></i><span>Emotions</span>
+        </div>
+        <div class="icon-rows__icon">
+          <i class="fa-regular fa-thumbs-up"></i><span>Themes</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa-solid fa-quote-left"></i>
             </div>
+            <span>Kokoa Story</span>
           </div>
-          <div class="user-component__column">
-            <div><span>2</span><i class="fa-solid fa-angle-right"></i></div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </div>
+            <span>The power of love</span>
           </div>
         </div>
       </div>
     </main>
 
-    <!--
-     <div class="friends-channel">
-      <span>Channel</span><span><i class="fa-solid fa-angle-up"></i></span>
-    </div>
-    <div class="friends-row">
-      <div class="friends-row__column">
-        <img class="friends-profile__img" src="1.jpeg" alt="" />
-        <div class="friends-profile__name">Channel</div>
-      </div>
-      <div class="friends-row__column">
-        <span>2</span><span><i class="fa-solid fa-angle-right"></i></span>
-      </div>
-    </div>-->
-
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a href="friends.html" class="nav__link"
-            ><i class="fa-solid fa-user"></i
+            ><i class="fa-regular fa-user"></i
           ></a>
         </li>
         <li class="nav__btn">

@@ -1,0 +1,29 @@
+.more-suggestions__icons {
+  display: flex;
+  margin-top: 20px;
+  border-top: var(--main-border);
+  padding: 20px 0px;
+}
+
+.more-suggestions__icon {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-suggestions__icon-image {
+  background-color: teal;
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.more-suggestions__icon span {
+  margin-top: 10px;
+}
