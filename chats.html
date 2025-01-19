@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends | Kokoa</title>
+    <title>Chats | Kokoa</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -21,10 +21,14 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__column">
+        <span class="screen-header__title">Chats</span>
+      </div>
       <div class="screen-header__column">
         <span class="screen-header__icon"
           ><i class="fa-solid fa-magnifying-glass"></i></span
+        ><span class="screen-header__icon"
+          ><i class="fa-solid fa-comments"></i></span
         ><span class="screen-header__icon"
           ><i class="fa-solid fa-headphones"></i></span
         ><span class="screen-header__icon"
@@ -32,82 +36,39 @@
         ></span>
       </div>
     </header>
-    <a class="friends-display__link" href="friends.html">
-      <i class="fa-solid fa-circle-info"></i>
-      <span class="friends-display__text">Friends' Names Display</span>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__img user-component__img--xl"
-            src="1.jpeg"
-            alt=""
-          />
-          <div class="user-component__text">
-            <h3 class="user-component__title">Mina</h3>
-            <!--<span class="user-component__subtitle"
-          >Please check My Kakao Account Info</span
-        >-->
-          </div>
-        </div>
-
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-angle-up"></i>
-        </div>
-        <div class="user-component">
+    <main class="main-screen">
+      <a href="chat.html"
+        ><div class="user-component">
           <div class="user-component__column">
             <img
-              class="user-component__img user-component__img--sm"
+              class="user-component__img user-component__img--xl"
               src="1.jpeg"
               alt=""
             />
             <div class="user-component__text">
-              <h3 class="user-component__title user-component__title-not-bold">
-                Mina
-              </h3>
-              <!--<span class="user-component__subtitle"
-            >Please check My Kakao Account Info</span
-          >-->
+              <h3 class="user-component__title">Mina</h3>
+              <span class="user-component__subtitle">Hi! Miss you.</span>
             </div>
           </div>
           <div class="user-component__column">
-            <div><span>2</span><i class="fa-solid fa-angle-right"></i></div>
+            <span class="user-component__time">21:22</span>
+            <span class="badge">1</span>
           </div>
-        </div>
-      </div>
+        </div></a
+      >
     </main>
-
-    <!--
-     <div class="friends-channel">
-      <span>Channel</span><span><i class="fa-solid fa-angle-up"></i></span>
-    </div>
-    <div class="friends-row">
-      <div class="friends-row__column">
-        <img class="friends-profile__img" src="1.jpeg" alt="" />
-        <div class="friends-profile__name">Channel</div>
-      </div>
-      <div class="friends-row__column">
-        <span>2</span><span><i class="fa-solid fa-angle-right"></i></span>
-      </div>
-    </div>-->
 
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a href="friends.html" class="nav__link"
-            ><i class="fa-solid fa-user"></i
+            ><i class="fa-regular fa-user"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a href="chats.html" class="nav__link">
             <span class="nav__notification badge">1</span>
-            <i class="fa-regular fa-comment"></i
+            <i class="fa-solid fa-comment"></i
           ></a>
         </li>
         <li class="nav__btn">
