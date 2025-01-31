@@ -33,8 +33,35 @@
       </div>
     </header>
     <main class="main-screen chat">
-      <span class="chat-date">Sunday, January, 19, 2025</span>
+      <span class="chat-timestamp">Sunday, January, 19, 2025</span>
+      <div class="message-row">
+        <img src="김대리 프로필.png" alt="" class="message-row__img" />
+        <div class="message-contents">
+          <span class="message-contents__name">Poter</span>
+          <div class="message-contents__info">
+            <span class="message-contents__info-text">Hi!</span>
+            <span class="message-contents__info-time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-contents">
+          <div class="message-contents__info">
+            <span class="message-contents__info-text">Hi!</span>
+            <span class="message-contents__info-time">21:27</span>
+          </div>
+        </div>
+      </div>
     </main>
+    <form action="" class="message-input">
+      <div class="message-input__column"><i class="fa-solid fa-plus"></i></div>
+      <div class="message-input__column">
+        <input type="text" placeholder="Write your message" />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button><i class="fa-solid fa-arrow-up"></i></button>
+      </div>
+    </form>
+    <span id="no-mobile"> Your screen is too big! </span>
 
     <script
       src="https://kit.fontawesome.com/54a5b9e555.js"
